@@ -1,0 +1,169 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    opacity: 0.9;
+}
+
+/* header and its elements */
+
+header {
+    display: flex;
+    width: 100%;
+    height: 69px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid seashell;
+    padding: 0 10px;
+    background-color: black;
+    opacity: 0.9;
+    position: sticky;
+    top: 0px;
+}
+
+.logo {
+    background-image: url(../images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 50px; 
+    width: 200px
+}
+
+.navigation {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+}
+
+a {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    align-items: center;
+    height: 43.75em;
+    width: 80%;
+    background-image: url(../images/img-mission-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.content-main {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    padding: 10px;
+}
+
+/* Tea of the month */
+
+.special {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+}
+
+/* Tea list */
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    max-width: 1200px;
+    padding: 0 100px;
+}
+
+.picture {
+    height: 200px;
+    width: 300px;
+    margin: 10px
+}
+
+.image1 {
+    background-image: url(../images/img-berryblitz.jpg);
+    background-size: cover;
+}
+
+.image2 {
+    background-image: url(../images/img-spiced-rum.jpg);
+    background-size: cover;
+}
+
+.image3 {
+    background-image: url(../images/img-donut.jpg);
+    background-size: cover;
+}
+
+.image4 {
+    background-image: url(../images/img-myrtle-ave.jpg);
+    background-size: cover;
+}
+
+.image5 {
+    background-image: url(../images/img-bedford-bizarre.jpg);
+    background-size: cover;
+}
+
+figcaption {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+}
+
+/* locations */
+
+.container2 {
+    font-family: Helvetica, sans-serif;
+    color: #A0522D;
+    min-height: 600px;
+    width: 80%;
+    background-image: url(../images/img-locations-background.jpg);
+    background-size: cover;
+}
+
+.locations {
+    display: flex;
+    justify-content: center;
+    width: 85%;
+    flex-wrap: wrap;
+}
+
+.child {
+    width: 300px;
+    justify-content: center;
+    background-color: black;
+    border: 2px solid black;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    margin: 10px 0;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+footer {
+    justify-content: center;
+    width: 100%;
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+}
+
+.last {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    margin-left: 20px;
+}
